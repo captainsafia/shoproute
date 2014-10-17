@@ -1,0 +1,80 @@
+/* Copyright 2014 ShopRoute
+Last updated: 17 October 2014
+*/
+
+/* reset foundation styles */
+
+.inline-list, p {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+/* header styling */
+
+.section-header {
+	padding: 20px; }
+	.section-header .inline-list {
+		margin-left: -3rem; }
+		.section-header .inline-list > li {
+			margin-left: 3rem; }
+
+.sticky {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+/* hero styling */
+
+.section-hero {
+	padding: 40px 0; }
+	.section-hero form {
+		margin-top: 50px; }
+	.section-hero form input[type="text"] {
+		font-size: 150%;
+		padding: 30px 20px;
+		border-radius: 10px; }
+	.section-hero label {
+		line-height: 3em;
+	}
+
+/* feature styling */
+
+.section-feature-right .large-8, .section-feature-left .large-8 {
+	padding: 40px 15px;
+}
+
+/* footer styling */
+
+.section-footer {
+	padding: 25px 0;
+}
+
+/* readability for testing only
+
+section, div {
+	border: 1px solid red;
+}
+
+.feature-img, .feature-img {
+	height: 300px;
+}
+
+.section-header, .section-footer {
+	background: #ececec;
+}
+
+.section-hero {
+	background: #5baaff;
+}
+
+.section-feature-left .large-4, .section-feature-right .large-4 {
+	background: #bf4964;
+}
+
+.section-feature-left, .section-feature-right {
+	background: #b8b8b8;
+}
+*/
