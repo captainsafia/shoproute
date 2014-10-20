@@ -12,7 +12,8 @@ Last updated: 17 October 2014
 /* header styling */
 
 .section-header {
-	padding: 20px; }
+	padding: 20px;
+	border-bottom: 1px solid black; }
 		.section-header .inline-list {
 			margin: 0 auto;
 			width: -webkit-fit-content;
@@ -58,11 +59,9 @@ Last updated: 17 October 2014
 
 .section-feature-right, .section-feature-left {
 	margin: 1em;
-	border-bottom: 1px solid black; }
+	border-top: 1px solid black; }
 		.section-feature-right .large-8, .section-feature-left .large-8 {
 			padding: 40px 0; }
-		.last {
-			border-bottom: none; }
 			
 @media (min-width: 39rem) {
 	.section-feature-right .large-8, .section-feature-left .large-8 {
