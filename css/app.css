@@ -13,68 +13,74 @@ Last updated: 17 October 2014
 
 .section-header {
 	padding: 20px; }
-	.section-header .inline-list {
-		margin-left: -3rem; }
-		.section-header .inline-list > li {
-			margin-left: 3rem; }
+		.section-header .inline-list {
+			margin: 0 auto;
+			width: -webkit-fit-content;
+			width: -moz-fit-content;
+	          width: fit-content;
+	        margin-top: 10px; }
+				.section-header .inline-list > li {
+					margin-left: 3rem; }
+				.section-header .inline-list li:first-child {
+					margin-left: 0; }
 
-.sticky {
-	position: fixed;
-	width: 100%;
-	left: 0;
-	top: 0;
-	z-index: 100;
+.logo {
+	background: url(../img/logo-bw.png);
+	margin: 0 auto;
+	width: 250px;
+	height: 54px; }
+
+@media (min-width: 39rem) {
+	.section-header .inline-list {
+		margin-left: -3rem;
+		float: right;
+		line-height: 2em; }
+	
+	.logo {
+		float: left;
+	}
 }
 
 /* hero styling */
 
 .section-hero {
 	padding: 40px 0; }
-	.section-hero form {
-		margin-top: 50px; }
-	.section-hero form input[type="text"] {
-		font-size: 150%;
-		padding: 30px 20px;
-		border-radius: 10px; }
-	.section-hero label {
-		line-height: 3em;
-	}
+		.section-hero form {
+			margin-top: 50px; }
+		.section-hero form input[type="text"] {
+			font-size: 150%;
+			padding: 30px 20px;
+			border-radius: 10px; }
+		.section-hero label {
+			line-height: 3em;}
 
 /* feature styling */
 
-.section-feature-right .large-8, .section-feature-left .large-8 {
-	padding: 40px 15px;
+.section-feature-right, .section-feature-left {
+	margin: 1em;
+	border-bottom: 1px solid black; }
+		.section-feature-right .large-8, .section-feature-left .large-8 {
+			padding: 40px 0; }
+		.last {
+			border-bottom: none; }
+			
+@media (min-width: 39rem) {
+	.section-feature-right .large-8, .section-feature-left .large-8 {
+			padding: 40px 30px; }
 }
 
 /* footer styling */
 
 .section-footer {
 	padding: 25px 0;
-}
-
-/* readability for testing only
-
-section, div {
-	border: 1px solid red;
-}
-
-.feature-img, .feature-img {
-	height: 300px;
-}
-
-.section-header, .section-footer {
-	background: #ececec;
-}
-
-.section-hero {
-	background: #5baaff;
-}
-
-.section-feature-left .large-4, .section-feature-right .large-4 {
-	background: #bf4964;
-}
-
-.section-feature-left, .section-feature-right {
-	background: #b8b8b8;
-}
-*/
+	background: #262626;
+	color: white; }
+		.section-footer p {
+			text-align: center;
+			font-size: 0.8em; }
+		.section-footer ul {
+			margin: 0 auto;
+			font-size: 0.8em;
+			width: -webkit-fit-content;
+			width: -moz-fit-content;
+	          width: fit-content; }
